@@ -47,13 +47,20 @@ h1 {
     padding: 60px;
 }
 
+.container-fluid .row {
+    width: 85%;
+    margin: 0 auto;
+}
+
 .col-md-2 {
     height: 263px;
-    width: 264;
+    width: 264px;
     border-radius: 12px;
     border-style: solid;
-    margin: 30px;
     background-color: white;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
 } 
 
 .border-highlight {
@@ -62,8 +69,8 @@ h1 {
 
 .inner-highlight {
     background-color: $highlight-colour;
+    border-color: white;
 }
-
 
 footer {
     display: flex;
