@@ -80,9 +80,27 @@ footer {
     color: $font-colour;
 }
 
+.right {
+    float: right;
+    margin-right: 10%;
+}
+
+.left {
+    float: left;
+    margin-left: 10%; 
+}
+
 
 .wrapper {
     flex: 1 0 auto;
     background-color: $background-colour;
 }
 
+@media only screen and (max-width: 760px) {
+
+    .right, .left {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
