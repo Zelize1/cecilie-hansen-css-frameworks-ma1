@@ -26,10 +26,15 @@ body {
 
 nav .navbar-brand {
   font-size: 36px;
+  margin-left: 10%;
 }
 
 nav .nav-link {
   font-size: 18px;
+}
+
+.navbar-nav {
+  margin-right: 12%;
 }
 
 .navbar-brand, footer {
@@ -51,7 +56,7 @@ h1 {
 }
 
 .container-fluid .row {
-  width: 85%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -60,13 +65,17 @@ h1 {
   width: 264px;
   border-radius: 12px;
   border-style: solid;
-  background-color: white;
+  background-color: #F4F3EE;
   margin: 0 auto;
   margin-bottom: 30px;
+  border-color: #F4F3EE;
+  -webkit-box-shadow: 5px 10px #E2E2E2;
+          box-shadow: 5px 10px #E2E2E2;
 }
 
 .border-highlight {
   border-color: #C32C72;
+  background-color: white;
 }
 
 .inner-highlight {
@@ -85,6 +94,7 @@ footer {
       flex-shrink: 0;
   font-family: OpenSans-Regular;
   color: #6A6A6A;
+  padding: 10px;
 }
 
 .right {
