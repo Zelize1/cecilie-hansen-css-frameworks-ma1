@@ -22,8 +22,14 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  display: flex;
-  flex-direction: column;
+}
+
+nav .navbar-brand {
+  font-size: 36px;
+}
+
+nav .nav-link {
+  font-size: 18px;
 }
 
 .navbar-brand, footer {
@@ -53,20 +59,25 @@ h1 {
   background-color: white;
 }
 
+.border-highlight {
+  border-color: #C32C72;
+}
+
+.inner-highlight {
+  background-color: #C32C72;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: var(--nav-colour);
-  margin-top: 2rem;
-  font-size: 0.8em;
-  color: #8d8d8d;
-  padding: 0.5em;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  font-family: OpenSans-Regular;
+  color: #6A6A6A;
 }
 
 .wrapper {

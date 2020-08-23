@@ -19,8 +19,14 @@ body {
     color: $background-colour;
     display: flex;
     flex-direction: column;
-    display: flex;
-    flex-direction: column;
+}
+
+nav .navbar-brand {
+    font-size: 36px;
+}
+
+nav .nav-link {
+    font-size: 18px;
 }
 
 .navbar-brand, footer {
@@ -50,17 +56,23 @@ h1 {
     background-color: white;
 } 
 
+.border-highlight {
+    border-color: $highlight-colour;
+}
+
+.inner-highlight {
+    background-color: $highlight-colour;
+}
+
 
 footer {
     display: flex;
-    flex-shrink: 0;
     justify-content: space-between;
-    background-color: var(--nav-colour);
-    margin-top: 2rem;
-    font-size: 0.8em;
-    color: #8d8d8d;
-    padding: 0.5em;
+    flex-shrink: 0;
+    font-family: OpenSans-Regular;
+    color: $font-colour;
 }
+
 
 .wrapper {
     flex: 1 0 auto;
