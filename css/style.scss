@@ -1,0 +1,69 @@
+@import "partials/variables";
+
+@font-face {
+    font-family: ArchivoNarrow-Regular;
+    src: url(fonts/ArchivoNarrow-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    color: $background-colour;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand, footer {
+    font-family: OpenSans-Regular;
+}
+
+.nav-link {
+    font-family: ArchivoNarrow-Regular;
+}
+
+#active {
+    color: $active-colour;
+}
+
+h1 {
+    font-family: OpenSans-Regular;
+    text-align: center;
+    padding: 60px;
+}
+
+.col-md-2 {
+    height: 263px;
+    width: 264;
+    border-radius: 12px;
+    border-style: solid;
+    margin: 30px;
+    background-color: white;
+} 
+
+
+footer {
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    background-color: var(--nav-colour);
+    margin-top: 2rem;
+    font-size: 0.8em;
+    color: #8d8d8d;
+    padding: 0.5em;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+    background-color: $background-colour;
+}
+
